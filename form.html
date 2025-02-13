@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form </title>
+    <h1>Registration form</h1>
+    <form method="post" target="_blank" autocomplete="off">
+        <label  for="user">Name:</label><br>
+        <input type = "text"  id ="user" name ="username" placeholder="Enter name"/>
+        <br>
+        <label>Email:</label><br>
+        <input type = "email" name="Emai" placeholder="Enter email" required/>
+        <br>
+        <label>Mobile Number:</label><br>
+        <input type = "tel" name="Number" pattern = [6-9][0-9]{9} placeholder="Enter mobile number" required/>
+        <br>
+        <label>DOB:</label><br>
+        <input type = "date" name="dob" placeholder="Enter date of birth"/>
+        <br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+        <label>Graduation:</label><br>
+        <input type = "text" name="degreename" placeholder="Enter degreename"/>
+        <br>
+        <label>Branchname:</label><br>
+        <input type = "text" name="branch" placeholder="Enter branchname"/>
+        <br>
+        <label>Year:</label><br>
+        <select>
+        <option>First</option>
+        <option>Second</option>
+        <option>Third</option>
+        <option>Fouth</option>
+        </select>
+        <br>
+        <label>Gender:</label><br>
+        <input type = "radio" value="Female" name="Gender"/><label>Female</label>
+        <input type ="radio" value="Male" name="Gender"/><label>Male</label>
+        <br>
+        <label for="sure">Languages known</label>
+        <input type="checkbox" id="sure" name="done" value="Java"><label>JAVA</label>
+        <input type="checkbox" id="sure" name="done" value="Py"><label>Python</label>
+        <input type="checkbox" id="sure" name="done" value="db"><label>SQL</label>
+        <br><br>
+        <input type="button" value ="submit"/>
+        <img src="https://i.redd.it/azb5a2h0jar21.png" />
+
+
+    </form>
+
+
+</head>
+</html>
